@@ -1,21 +1,26 @@
+console.log("***** TIPOS DE DATOS **** ");
 
-// number 
-/*
-Number.MAX_VALUE	1.7976931348623157e+308	Valor más grande
-Number.MIN_VALUE	5e-324	Valor más pequeño
-Number.MAX_SAFE_INTEGER	9007199254740991	Valor seguro más grande
-Number.MIN_SAFE_INTEGER	-9007199254740991	Valor seguro más pequeño
- */
+  // numeros  => number
+  let miNumero = 2000;
+  console.log("MINUMERO", miNumero);
 
-// BigInt
+  miNumero = "UNA CADENA DE TEXTO";
+  console.log("MINUMERO 2", miNumero);
 
 
-// string 
+  // cadenas de texto => string
+  let miString = "MI CADENA DE TEXTO";
+  console.log("MI CADENA", miString);
 
+  // boolean : true / false
+  let miVariableVerdadero = true;
+  let miVariableFalso = false;
+ 
+  // BigInt 
+  // Números más grandes que Number.MAX_SAFE_INTEGER
 
-// boolean 
+  //undefined
+  let miVaribleIndefinida;
+  console.log("MI VARAIBLE INDEFINDA", miVaribleIndefinida);
 
-
-//undefined
-
-//symbol
+  //Symbol
